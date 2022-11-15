@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>ID CARD</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css"
+              </head>
+    <body>
+        <div class="kotak"
+        <hr/>
+        <h1 align="center"> KTP </h1>
+        <p th:text="${kirimanNama}"></p>
+        <p th:text="${kirimanTglahir}"></p>
+        <p th:text="${kirimanAlamat}"></p>
+        <p th:text="${kirimanAgama}"></p>
+        <br>
+        <img th:src="${kirimanGambar}" width="200" height="200" align="right"></p>
+</body>
+</html>
